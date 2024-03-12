@@ -4,6 +4,9 @@ import datetime
 import wikipedia
 import webbrowser
 import random
+import socket
+
+server_esp32 = ('ESP32_IP_ADDRESS', ESP32_PORT) #Replace the Port Number and the IP of the ESP32
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
